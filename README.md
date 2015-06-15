@@ -5,15 +5,24 @@
 Only Lagrange polynomial is implemented.
 
 - [Lagrange polynomial](https://en.wikipedia.org/wiki/Lagrange_polynomial)
+- [Spline](https://en.wikipedia.org/wiki/Spline_(mathematics))
 - [Newton polynomial](https://en.wikipedia.org/wiki/Newton_polynomial)
 
 
 ## Execution
 
+### Lagrange polynomial
+
 ```bash
 $ cd lagrange
 $ gcc lagrange.c -o lagrange
 $ ./lagrange [Input file]
+```
+
+### Spline
+
+```bash
+
 ```
 
 ## Input file format
@@ -36,7 +45,7 @@ xx_m
 
 ```
 
-## Output
+## Output file format
 
 ```
 xx_1 yy_1
@@ -73,7 +82,7 @@ Input
 2.0
 ```
 
-Output
+Output with Lagrange polynomial
 
 ```
 -1.00000 0.80000
