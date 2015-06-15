@@ -36,10 +36,10 @@ $ ./spline.py [input file]
 
 ## Input file format
 
-n:  # of distinct points
-m: # of interpolation points
-x_i, y_i: the i-th distinct point (0 < i <= n)
-xx_j: the j-th interpolation point (0 < j <= m)
+- n:  # of distinct points
+- m: # of interpolation points
+- x_i, y_i: the i-th distinct point (0 < i <= n)
+- xx_j: the j-th interpolation point (0 < j <= m)
 
 ```
 n m
@@ -114,5 +114,8 @@ Output with Lagrange polynomial
 
 ## Reference
 
-- http://homepage1.nifty.com/gfk/Lagrange.htm
-- http://homepage3.nifty.com/gakuyu/suti/hokan/lag-pro1.pdf
+- Lagrange
+  - http://homepage1.nifty.com/gfk/Lagrange.htm
+  - http://homepage3.nifty.com/gakuyu/suti/hokan/lag-pro1.pdf
+- Spline
+  - http://docs.scipy.org/doc/scipy-0.14.0/reference/tutorial/interpolate.html#spline-interpolation
