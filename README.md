@@ -21,8 +21,17 @@ $ ./lagrange [Input file]
 
 ### Spline
 
-```bash
+Install
 
+```bash
+$ sudo apt-get install python-scipy
+```
+
+Execute
+
+```bash
+$ cd spline
+$ ./spline.py [input file]
 ```
 
 ## Input file format
