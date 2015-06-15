@@ -56,3 +56,8 @@ Output
 ```
 
 ```
+
+## Reference
+
+- http://homepage1.nifty.com/gfk/Lagrange.htm
+- http://homepage3.nifty.com/gakuyu/suti/hokan/lag-pro1.pdf
